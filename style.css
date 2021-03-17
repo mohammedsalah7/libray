@@ -1,0 +1,117 @@
+body {
+  background-color: #6CC4C6;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  font-family: arial;
+  font-size: 35px;
+  color:#FFFAE2;
+  text-align: center;
+  width: 250px;
+  margin-left: -40px;
+
+}
+#container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.displayBook {
+  background-color: #202125;
+  border-radius: 10px;
+  width: 218px;
+  height: 287px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+#addBook {
+  margin-top: 50px;
+  font-size: 20px;
+  margin-left: 45%;
+
+}
+
+form {
+  display: none;
+  width: 150px;
+  margin: auto;
+  margin-top: 25px;
+  left: 40%;
+  background-color: #202125;
+  padding: 5px;
+  transform: scale(2);
+  z-index: 2;
+
+}
+label {
+  color: #FAF8F0;
+  font-size: medium;
+  font-size: 12px;
+  display: flex;
+}
+input {
+  height: 10px;
+}
+#addBtn{
+  margin: auto;
+  color: #202125;
+  border-radius: 5px;
+  background-color:#6CC4C6;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.bookTittle {
+  font-weight: bold;
+  width: 205px;
+  display:flex;
+  justify-content: flex-start;
+  margin: auto;
+  color: #FAF8F0;
+
+}
+.bookAuthor{
+  font-weight: bold;
+  color: #FAF8F0;
+  width: 205px;
+  display:flex;
+  justify-content: flex-start;
+  margin: auto;
+
+}
+
+
+#newBookButtonArea {
+  max-width: 200px;
+  height: 155px;
+  display: block;
+  visibility: visible;
+  margin: 0 auto;
+
+}
+
+#newBookButton {
+  font-size: 25px;
+  margin-left: 12px;
+  border: 1px solid;
+  color: #FFFAE2;
+  border-radius: 5px;
+  background-color:#4C8F90
+
+}
+
+.imgs{
+  width: 180px;
+  height: 180px;
+  margin: auto;
+}
