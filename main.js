@@ -50,14 +50,14 @@ function displayLibrary() {
     bookImgs.setAttribute("class", "imgs")
     displayBook.appendChild(bookImgs);
 
+  }
+}
 
-     let newBookButton = document.querySelector("#newBookButton");
+    let newBookButton = document.querySelector("#newBookButton");
     newBookButton.addEventListener("click",displayForm );
 
     let addBtn = document.querySelector("#addBtn");
     addBtn.addEventListener("click",addBookToLibrary );
-  }
-}
 
 function clearLibrary(container) {
   while (container.firstChild) {
